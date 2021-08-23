@@ -7,7 +7,6 @@ import reducers from "./reducers";
 
 import App from "./App";
 import "./index.css";
-import 'mapbox-gl/dist/mapbox-gl.css';
 
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
 

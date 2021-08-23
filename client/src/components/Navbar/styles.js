@@ -13,9 +13,8 @@ export default makeStyles((theme) => ({
     backgroundColor: '#064420',
   },
   heading: {
-    color: 'white',
+    color: '#e4efe7',
     textDecoration: 'none',
-    margin: '0 30px 0 0',
   },
   image: {
     marginLeft: '15px',
@@ -31,6 +30,7 @@ export default makeStyles((theme) => ({
     width: '400px',
   },
   userName: {
+    color: '#e4efe7',
     display: 'flex',
     alignItems: 'center',
   },
@@ -42,4 +42,7 @@ export default makeStyles((theme) => ({
     color: theme.palette.getContrastText(deepPurple[500]),
     backgroundColor: deepPurple[500],
   },
+  explore: {
+    margin: '0 15px',
+  }
 }));

@@ -2,7 +2,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles({
   media: {
-    height: 0,
+    width: '500px',
+    height: '100px',
     paddingTop: '56.25%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     backgroundBlendMode: 'darken',
@@ -49,4 +50,8 @@ export default makeStyles({
     display: 'flex',
     justifyContent: 'space-between',
   },
+  cardAction: {
+    display: 'block',
+    textAlign: 'initial',
+  }
 });
